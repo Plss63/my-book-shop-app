@@ -1,0 +1,14 @@
+com\example\MyBookShopApp\controllers\AuthorsController.class
+com\example\MyBookShopApp\data\BookService.class
+com\example\MyBookShopApp\data\Author.class
+com\example\MyBookShopApp\data\Book.class
+com\example\MyBookShopApp\controllers\AuthorizationController.class
+com\example\MyBookShopApp\MyBookShopAppApplication.class
+com\example\MyBookShopApp\config\LocaleChangeConfig.class
+com\example\MyBookShopApp\controllers\BooksController.class
+com\example\MyBookShopApp\controllers\InfoController.class
+com\example\MyBookShopApp\controllers\SearchController.class
+com\example\MyBookShopApp\controllers\MainPageController.class
+com\example\MyBookShopApp\controllers\CartController.class
+com\example\MyBookShopApp\controllers\GenresController.class
+com\example\MyBookShopApp\data\AuthorService.class

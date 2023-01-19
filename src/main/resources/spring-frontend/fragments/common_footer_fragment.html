@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<footer class="Footer" th:fragment="footer">
+  <div class="wrap">
+    <div class="row Footer-main">
+      <div class="row-block"
+           th:replace="~{fragments/footer_left_side_info_block_fragment :: block}"></div>
+      <div class="row-block">
+        <ul class="menu menu_vt Footer-menu">
+          <li th:class="menu-item"><a class="menu-link" th:text="#{topbar.main}" th:href="@{/}">Главная</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" th:text="#{topbar.genres}" th:href="@{/genres}">Жанры</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" th:text="#{topbar.news}" th:href="@{/books/recent}">Новинки</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" th:text="#{topbar.popular}" th:href="@{/books/popular}">Популярное</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" th:text="#{topbar.authors}" th:href="@{/authors}">Авторы</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row-block">
+        <ul class="menu menu_vt Footer-menu">
+          <li class="menu-item"><a class="menu-link" th:text="#{footer.signin}" th:href="@{/signin}">Войти</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" th:text="#{footer.documents}" th:href="@{/documents}">Документы</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" th:text="#{footer.about}" th:href="@{/about}">О компании</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" th:text="#{footer.faq}" th:href="@{/faq}">Помощь</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" th:text="#{footer.contacts}" th:href="@{/contacts}">Контакты</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="Footer-copy">
+    <div class="wrap">© 2021 Bookshop Pty Ltd. ALL RIGHTS RESERVED
+    </div>
+  </div>
+</footer>
+</html>
